@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  border: 0;
+  font-family: Raleway, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+/* HEADER */
+.header {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+/*DESCRIPCIÓN*/
+.desc-section {
+  background-color: #000000;
+  margin: 0;
+  padding: 45px 0;
+  text-align: left; /* Alinea el contenido al centro */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex; /* para alinear los elementos */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si no hay espacio suficiente */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.desc-text {
+  max-width: 522px;
+  margin-right: 70px; /* Espacio entre el texto y la imagen */
+}
+
+.desc-img {
+  width: 30%;
+  text-align: left;
+}
+
+.desc-img img {
+  width: 100%;
+}
+
+/*ICONOS*/
+.icons-section {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 50px;
+}
+
+.icons-section h2 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.icons {
+  display: inline-block;
+  width: 30%;
+}
+
+.icons p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/*IMAGENES*/
+.img-section {
+  text-align: center;
+  padding: 65px 0;
+}
+
+.image {
+  display: inline-block;
+  width: 26.5%;
+  vertical-align: middle;
+}
+
+.image img {
+  top: 1561px;
+  left: 482px;
+  width: 316px;
+  height: 202px;
+}
+
+/*FOOTER*/
+footer 	/*	clase especifica 2		*/ {
+  background-color: #1e1a13;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
